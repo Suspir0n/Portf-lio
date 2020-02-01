@@ -1,0 +1,202 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #b1a3a3;
+}
+.navbar-default .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 2em;
+  color: #000000;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #000000;
+}
+.navbar-default .navbar-text {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #b1a3a3;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #b1a3a3;
+}
+.navbar-default .navbar-toggle {
+  border-color: #b1a3a3;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #b1a3a3;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #000000;
+}
+.navbar-default .navbar-link {
+  color: #000000;
+}
+.navbar-default .navbar-link:hover {
+  color: #000000;
+}
+
+#home {  
+  background-image: url(code_1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-top: 50px;
+  padding-top: 15%;
+  padding-bottom: 50px;
+  color: #fff;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.5),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#home h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+#home p a {
+  font-size: 3em;
+  color: #fff;
+}
+
+#sobre {
+/*  background-image: url(https://i.imgur.com/uxqYQXQ.jpg); */
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+/* Portfolio Items */
+
+#portfolio {
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  margin: 0 auto;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: center;
+  padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+}
+
+#formacao {
+  background-image: url(code_2.jpg);
+    /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+#formacao h1 {
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.5),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#conhecimentos {
+  background-color: #363636;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+}
+
+#conhecimentos h1 {
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.5),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#contato {
+  color: #fff;
+  height: 900px;
+  font-size: 3em;
+}
+
+hr {
+  width: 33%;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+.sub-titulo {
+  font-size: 2.5em;
+}
+
+/* testemunhos */ 
+#carousel-testimonials{
+    margin-bottom: 30px;
+}
+
+/* botão contacto */
+.form-wrapper button{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc
+}
+
+/* botão contacto hover */
+.form-wrapper button:hover{
+    background-color: #ccc; 
+    color: #333; 
+    border-color: #ccc; 
+}
+
+/* footer */
+.footer{
+    background-color: #222;
+    margin-top: 50px; 
+    padding-top: 10px;  
+    padding-bottom: 10px; 
+}
+
+h6{
+    color: #9d9d9d; 
+    font-size: 14px;
+    margin-left: 40%;
+      
+}
+
+
+  
+
