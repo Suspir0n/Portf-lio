@@ -1,3 +1,18 @@
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20%);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10%);
+  }
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
 }
@@ -194,7 +209,42 @@ h6{
     color: #9d9d9d; 
     font-size: 14px;
 }
-
-
-  
-
+.github:hover{
+  animation: bounce 1s;
+}
+.linkedin:hover{
+  animation: bounce 1s;
+}
+.skill-html:hover{
+  animation: bounce 1s;
+}
+.skill-css:hover{
+  animation: bounce 1s;
+}
+.skill-js:hover{
+  animation: bounce 1s;
+}
+.skill-ts:hover{
+  animation: bounce 1s;
+}
+.skill-nodejs:hover{
+  animation: bounce 1s;
+}
+.skill-angular:hover{
+  animation: bounce 1s;
+}
+.skill-java:hover{
+  animation: bounce 1s;
+}
+.skill-couchdb:hover{
+  animation: bounce 1s;
+}
+.skill-mysql:hover{
+  animation: bounce 1s;
+}
+.skill-gitlab:hover{
+  animation: bounce 1s;
+}
+.skill-github:hover{
+  animation: bounce 1s;
+}
